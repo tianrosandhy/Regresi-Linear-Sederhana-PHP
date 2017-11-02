@@ -31,8 +31,17 @@ $y = [
 $regresi = new RegresiLinier($x, $y);
 
 //contoh menampilkan data regresi linear
-var_dump($regresi->all);
+echo "<textarea style='width:100%; height:300px; '>";
+echo "X Variable : \n";
+print_r($x);
+echo "</textarea>";
 
+echo "<textarea style='width:100%; height:300px; '>";
+echo "Y Variable : \n";
+print_r($y);
+echo "</textarea>";
 
-//contoh menampilkan data perkiraan berdasarkan variabel x
-var_dump($regresi->forecast(2020));
+echo "<textarea style='width:100%; height:300px; '>";
+echo "Hasil Analisis Regresi Linear Sederhana : \n";
+print_r($regresi->all);
+echo "</textarea>";
