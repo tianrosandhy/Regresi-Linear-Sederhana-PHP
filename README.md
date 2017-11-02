@@ -46,3 +46,4 @@
     var_dump($regresi->forecast(2020));
 
 
+Simple Snippet by [www.tianrosandhy.com](https://www.tianrosandhy.com)
